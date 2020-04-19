@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D43DB66244BFB8300A87CA4 /* AddMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D43DB65244BFB8300A87CA4 /* AddMedicationViewController.swift */; };
+		0D43DB68244BFB9000A87CA4 /* HeartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D43DB67244BFB9000A87CA4 /* HeartViewController.swift */; };
+		0D43DB6A244BFBA900A87CA4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D43DB69244BFBA900A87CA4 /* HistoryViewController.swift */; };
+		0DAA352F23C9410B000B3D81 /* MedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAA352E23C9410B000B3D81 /* MedsViewController.swift */; };
+		0DD3B3CD23C1BA8F0033B256 /* PatientsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3B3CC23C1BA8F0033B256 /* PatientsListViewController.swift */; };
+		0DD3B3CF23C1CB0F0033B256 /* PatientsInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3B3CE23C1CB0F0033B256 /* PatientsInterfaceViewController.swift */; };
+		0DD3B3D123C26DB30033B256 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3B3D023C26DB30033B256 /* NotesViewController.swift */; };
+		2C75B0624E8CC6D19D575DF7 /* Pods_Speakably_SpeakablyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93906A3E5030808F351FBDA /* Pods_Speakably_SpeakablyUITests.framework */; };
+		363416A623C0859000642975 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363416A523C0859000642975 /* TasksViewController.swift */; };
+		36601EA723BE80920049C914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601EA623BE80920049C914 /* AppDelegate.swift */; };
+		36601EA923BE80920049C914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601EA823BE80920049C914 /* SceneDelegate.swift */; };
+		36601EAE23BE80920049C914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36601EAC23BE80920049C914 /* Main.storyboard */; };
+		36601EB023BE80930049C914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36601EAF23BE80930049C914 /* Assets.xcassets */; };
+		36601EB323BE80930049C914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36601EB123BE80930049C914 /* LaunchScreen.storyboard */; };
+		36601EBE23BE80930049C914 /* SpeakablyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601EBD23BE80930049C914 /* SpeakablyTests.swift */; };
+		36601EC923BE80940049C914 /* SpeakablyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601EC823BE80940049C914 /* SpeakablyUITests.swift */; };
+		36601ED723BECF7C0049C914 /* FirstLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601ED623BECF7C0049C914 /* FirstLoginPage.swift */; };
+		36601ED923BECF970049C914 /* SecondLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601ED823BECF970049C914 /* SecondLoginPage.swift */; };
+		36601EDB23BECFAA0049C914 /* ThirdLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601EDA23BECFAA0049C914 /* ThirdLoginPage.swift */; };
+		36601EDD23BED15B0049C914 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601EDC23BED15B0049C914 /* Data.swift */; };
+		36601EDF23BEF1210049C914 /* BATabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36601EDE23BEF1210049C914 /* BATabBarController.framework */; };
+		36601EE123BF2DA50049C914 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601EE023BF2DA50049C914 /* InboxViewController.swift */; };
+		36C9A0FA23C0627D00257147 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9A0F923C0627D00257147 /* CalendarViewController.swift */; };
+		36C9A0FC23C0630200257147 /* CalendarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C9A0FB23C0630200257147 /* CalendarKit.framework */; };
+		36C9A0FE23C0630500257147 /* DateToolsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C9A0FD23C0630500257147 /* DateToolsSwift.framework */; };
+		36C9A10223C0644B00257147 /* StyleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9A10123C0644B00257147 /* StyleGenerator.swift */; };
+		36C9A10423C0649500257147 /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9A10323C0649500257147 /* DatePickerController.swift */; };
+		700453C2879AFE322F3EC939 /* Pods_Speakably.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AF1A9B205E51A648FB51C1 /* Pods_Speakably.framework */; };
+		7DA5AB3327FA361DA5E25A1D /* Pods_SpeakablyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D0378209DADBD8EBED575C /* Pods_SpeakablyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36601EBA23BE80930049C914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36601E9B23BE80920049C914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36601EA223BE80920049C914;
+			remoteInfo = Speakably;
+		};
+		36601EC523BE80940049C914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36601E9B23BE80920049C914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36601EA223BE80920049C914;
+			remoteInfo = Speakably;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36601F7923C04A9C0049C914 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04D0378209DADBD8EBED575C /* Pods_SpeakablyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeakablyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D43DB65244BFB8300A87CA4 /* AddMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationViewController.swift; sourceTree = "<group>"; };
+		0D43DB67244BFB9000A87CA4 /* HeartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartViewController.swift; sourceTree = "<group>"; };
+		0D43DB69244BFBA900A87CA4 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		0DAA352E23C9410B000B3D81 /* MedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedsViewController.swift; sourceTree = "<group>"; };
+		0DD3B3CC23C1BA8F0033B256 /* PatientsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsListViewController.swift; sourceTree = "<group>"; };
+		0DD3B3CE23C1CB0F0033B256 /* PatientsInterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsInterfaceViewController.swift; sourceTree = "<group>"; };
+		0DD3B3D023C26DB30033B256 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		2935D7DD9B4D1801A6E82195 /* Pods-SpeakablyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakablyTests.release.xcconfig"; path = "Target Support Files/Pods-SpeakablyTests/Pods-SpeakablyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CCFF6EE0D9497DD85CA0A29 /* Pods-Speakably-SpeakablyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speakably-SpeakablyUITests.release.xcconfig"; path = "Target Support Files/Pods-Speakably-SpeakablyUITests/Pods-Speakably-SpeakablyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		363416A523C0859000642975 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		36601EA323BE80920049C914 /* Speakably.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speakably.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36601EA623BE80920049C914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36601EA823BE80920049C914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36601EAD23BE80920049C914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36601EAF23BE80930049C914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36601EB223BE80930049C914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36601EB423BE80930049C914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36601EB923BE80930049C914 /* SpeakablyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakablyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36601EBD23BE80930049C914 /* SpeakablyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakablyTests.swift; sourceTree = "<group>"; };
+		36601EBF23BE80930049C914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36601EC423BE80940049C914 /* SpeakablyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakablyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36601EC823BE80940049C914 /* SpeakablyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakablyUITests.swift; sourceTree = "<group>"; };
+		36601ECA23BE80940049C914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36601ED623BECF7C0049C914 /* FirstLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLoginPage.swift; sourceTree = "<group>"; };
+		36601ED823BECF970049C914 /* SecondLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLoginPage.swift; sourceTree = "<group>"; };
+		36601EDA23BECFAA0049C914 /* ThirdLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLoginPage.swift; sourceTree = "<group>"; };
+		36601EDC23BED15B0049C914 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		36601EDE23BEF1210049C914 /* BATabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BATabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36601EE023BF2DA50049C914 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		36601F7623C04A9C0049C914 /* JZCalendarWeekView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JZCalendarWeekView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C9A0F923C0627D00257147 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		36C9A0FB23C0630200257147 /* CalendarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CalendarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C9A0FD23C0630500257147 /* DateToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DateToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C9A10123C0644B00257147 /* StyleGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGenerator.swift; sourceTree = "<group>"; };
+		36C9A10323C0649500257147 /* DatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
+		3ADDEBA09298F8F2127F296B /* Pods-Speakably.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speakably.release.xcconfig"; path = "Target Support Files/Pods-Speakably/Pods-Speakably.release.xcconfig"; sourceTree = "<group>"; };
+		3CC1DFC366E4029CD498B6CF /* Pods-Speakably-SpeakablyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speakably-SpeakablyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Speakably-SpeakablyUITests/Pods-Speakably-SpeakablyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0D22BDE9BE3D2470B6DEA5 /* Pods-Speakably.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speakably.debug.xcconfig"; path = "Target Support Files/Pods-Speakably/Pods-Speakably.debug.xcconfig"; sourceTree = "<group>"; };
+		809DDD27894022423E2ABBB2 /* Pods-SpeakablyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakablyTests.debug.xcconfig"; path = "Target Support Files/Pods-SpeakablyTests/Pods-SpeakablyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85AF1A9B205E51A648FB51C1 /* Pods_Speakably.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speakably.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93906A3E5030808F351FBDA /* Pods_Speakably_SpeakablyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speakably_SpeakablyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36601EA023BE80920049C914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C9A0FE23C0630500257147 /* DateToolsSwift.framework in Frameworks */,
+				36C9A0FC23C0630200257147 /* CalendarKit.framework in Frameworks */,
+				36601EDF23BEF1210049C914 /* BATabBarController.framework in Frameworks */,
+				700453C2879AFE322F3EC939 /* Pods_Speakably.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36601EB623BE80930049C914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5AB3327FA361DA5E25A1D /* Pods_SpeakablyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36601EC123BE80940049C914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C75B0624E8CC6D19D575DF7 /* Pods_Speakably_SpeakablyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD3B3D223C27B540033B256 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				363416A523C0859000642975 /* TasksViewController.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		0DD3B3D323C27B610033B256 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				36601EE023BF2DA50049C914 /* InboxViewController.swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		0DD3B3D423C27B760033B256 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				36601EA623BE80920049C914 /* AppDelegate.swift */,
+				36601EA823BE80920049C914 /* SceneDelegate.swift */,
+				36601EDC23BED15B0049C914 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0DD3B3D523C27B980033B256 /* Patients */ = {
+			isa = PBXGroup;
+			children = (
+				0DD3B3CC23C1BA8F0033B256 /* PatientsListViewController.swift */,
+				0DD3B3CE23C1CB0F0033B256 /* PatientsInterfaceViewController.swift */,
+				0DD3B3D023C26DB30033B256 /* NotesViewController.swift */,
+				0D43DB65244BFB8300A87CA4 /* AddMedicationViewController.swift */,
+				0D43DB67244BFB9000A87CA4 /* HeartViewController.swift */,
+				0D43DB69244BFBA900A87CA4 /* HistoryViewController.swift */,
+			);
+			path = Patients;
+			sourceTree = "<group>";
+		};
+		2805B1E0FB5BC6B8D04A57FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D22BDE9BE3D2470B6DEA5 /* Pods-Speakably.debug.xcconfig */,
+				3ADDEBA09298F8F2127F296B /* Pods-Speakably.release.xcconfig */,
+				3CC1DFC366E4029CD498B6CF /* Pods-Speakably-SpeakablyUITests.debug.xcconfig */,
+				2CCFF6EE0D9497DD85CA0A29 /* Pods-Speakably-SpeakablyUITests.release.xcconfig */,
+				809DDD27894022423E2ABBB2 /* Pods-SpeakablyTests.debug.xcconfig */,
+				2935D7DD9B4D1801A6E82195 /* Pods-SpeakablyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		36601E9A23BE80920049C914 = {
+			isa = PBXGroup;
+			children = (
+				36601EA523BE80920049C914 /* Speakably */,
+				36601EBC23BE80930049C914 /* SpeakablyTests */,
+				36601EC723BE80940049C914 /* SpeakablyUITests */,
+				36601EA423BE80920049C914 /* Products */,
+				2805B1E0FB5BC6B8D04A57FF /* Pods */,
+				E1215ACF9F54CA825673D263 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36601EA423BE80920049C914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36601EA323BE80920049C914 /* Speakably.app */,
+				36601EB923BE80930049C914 /* SpeakablyTests.xctest */,
+				36601EC423BE80940049C914 /* SpeakablyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36601EA523BE80920049C914 /* Speakably */ = {
+			isa = PBXGroup;
+			children = (
+				0DD3B3D423C27B760033B256 /* Data */,
+				0DD3B3D323C27B610033B256 /* Inbox */,
+				0DD3B3D223C27B540033B256 /* Tasks */,
+				36C9A10623C082DE00257147 /* Login */,
+				36C9A10523C082AA00257147 /* Calendar */,
+				0DD3B3D523C27B980033B256 /* Patients */,
+				36601EAC23BE80920049C914 /* Main.storyboard */,
+				36601EAF23BE80930049C914 /* Assets.xcassets */,
+				36601EB423BE80930049C914 /* Info.plist */,
+				36601EB123BE80930049C914 /* LaunchScreen.storyboard */,
+				0DAA352E23C9410B000B3D81 /* MedsViewController.swift */,
+			);
+			path = Speakably;
+			sourceTree = "<group>";
+		};
+		36601EBC23BE80930049C914 /* SpeakablyTests */ = {
+			isa = PBXGroup;
+			children = (
+				36601EBD23BE80930049C914 /* SpeakablyTests.swift */,
+				36601EBF23BE80930049C914 /* Info.plist */,
+			);
+			path = SpeakablyTests;
+			sourceTree = "<group>";
+		};
+		36601EC723BE80940049C914 /* SpeakablyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36601EC823BE80940049C914 /* SpeakablyUITests.swift */,
+				36601ECA23BE80940049C914 /* Info.plist */,
+			);
+			path = SpeakablyUITests;
+			sourceTree = "<group>";
+		};
+		36C9A10523C082AA00257147 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				36C9A0F923C0627D00257147 /* CalendarViewController.swift */,
+				36C9A10123C0644B00257147 /* StyleGenerator.swift */,
+				36C9A10323C0649500257147 /* DatePickerController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		36C9A10623C082DE00257147 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				36601ED623BECF7C0049C914 /* FirstLoginPage.swift */,
+				36601ED823BECF970049C914 /* SecondLoginPage.swift */,
+				36601EDA23BECFAA0049C914 /* ThirdLoginPage.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E1215ACF9F54CA825673D263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C9A0FD23C0630500257147 /* DateToolsSwift.framework */,
+				36C9A0FB23C0630200257147 /* CalendarKit.framework */,
+				36601F7623C04A9C0049C914 /* JZCalendarWeekView.framework */,
+				36601EDE23BEF1210049C914 /* BATabBarController.framework */,
+				85AF1A9B205E51A648FB51C1 /* Pods_Speakably.framework */,
+				E93906A3E5030808F351FBDA /* Pods_Speakably_SpeakablyUITests.framework */,
+				04D0378209DADBD8EBED575C /* Pods_SpeakablyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36601EA223BE80920049C914 /* Speakably */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36601ECD23BE80940049C914 /* Build configuration list for PBXNativeTarget "Speakably" */;
+			buildPhases = (
+				3E1D679BDF09703C13C609FB /* [CP] Check Pods Manifest.lock */,
+				36601E9F23BE80920049C914 /* Sources */,
+				36601EA023BE80920049C914 /* Frameworks */,
+				36601EA123BE80920049C914 /* Resources */,
+				8FB637E79950DA256EBDCCE0 /* [CP] Embed Pods Frameworks */,
+				36601F7923C04A9C0049C914 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speakably;
+			productName = Speakably;
+			productReference = 36601EA323BE80920049C914 /* Speakably.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36601EB823BE80930049C914 /* SpeakablyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36601ED023BE80940049C914 /* Build configuration list for PBXNativeTarget "SpeakablyTests" */;
+			buildPhases = (
+				376327EF3192F77C8E41FAF4 /* [CP] Check Pods Manifest.lock */,
+				36601EB523BE80930049C914 /* Sources */,
+				36601EB623BE80930049C914 /* Frameworks */,
+				36601EB723BE80930049C914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36601EBB23BE80930049C914 /* PBXTargetDependency */,
+			);
+			name = SpeakablyTests;
+			productName = SpeakablyTests;
+			productReference = 36601EB923BE80930049C914 /* SpeakablyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36601EC323BE80940049C914 /* SpeakablyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36601ED323BE80940049C914 /* Build configuration list for PBXNativeTarget "SpeakablyUITests" */;
+			buildPhases = (
+				837F441B32F06937C6E8F64A /* [CP] Check Pods Manifest.lock */,
+				36601EC023BE80940049C914 /* Sources */,
+				36601EC123BE80940049C914 /* Frameworks */,
+				36601EC223BE80940049C914 /* Resources */,
+				F48DAD65D3C7B0A835029FE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36601EC623BE80940049C914 /* PBXTargetDependency */,
+			);
+			name = SpeakablyUITests;
+			productName = SpeakablyUITests;
+			productReference = 36601EC423BE80940049C914 /* SpeakablyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36601E9B23BE80920049C914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Doshi, Hemal";
+				TargetAttributes = {
+					36601EA223BE80920049C914 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					36601EB823BE80930049C914 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 36601EA223BE80920049C914;
+					};
+					36601EC323BE80940049C914 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 36601EA223BE80920049C914;
+					};
+				};
+			};
+			buildConfigurationList = 36601E9E23BE80920049C914 /* Build configuration list for PBXProject "Speakably" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36601E9A23BE80920049C914;
+			productRefGroup = 36601EA423BE80920049C914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36601EA223BE80920049C914 /* Speakably */,
+				36601EB823BE80930049C914 /* SpeakablyTests */,
+				36601EC323BE80940049C914 /* SpeakablyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36601EA123BE80920049C914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36601EB323BE80930049C914 /* LaunchScreen.storyboard in Resources */,
+				36601EB023BE80930049C914 /* Assets.xcassets in Resources */,
+				36601EAE23BE80920049C914 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36601EB723BE80930049C914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36601EC223BE80940049C914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		376327EF3192F77C8E41FAF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeakablyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1D679BDF09703C13C609FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Speakably-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		837F441B32F06937C6E8F64A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Speakably-SpeakablyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB637E79950DA256EBDCCE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Speakably/Pods-Speakably-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Speakably/Pods-Speakably-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Speakably/Pods-Speakably-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F48DAD65D3C7B0A835029FE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Speakably-SpeakablyUITests/Pods-Speakably-SpeakablyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Speakably-SpeakablyUITests/Pods-Speakably-SpeakablyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Speakably-SpeakablyUITests/Pods-Speakably-SpeakablyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36601E9F23BE80920049C914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C9A10423C0649500257147 /* DatePickerController.swift in Sources */,
+				36601EE123BF2DA50049C914 /* InboxViewController.swift in Sources */,
+				36601EDB23BECFAA0049C914 /* ThirdLoginPage.swift in Sources */,
+				0D43DB66244BFB8300A87CA4 /* AddMedicationViewController.swift in Sources */,
+				0DD3B3CF23C1CB0F0033B256 /* PatientsInterfaceViewController.swift in Sources */,
+				0DAA352F23C9410B000B3D81 /* MedsViewController.swift in Sources */,
+				36601EDD23BED15B0049C914 /* Data.swift in Sources */,
+				363416A623C0859000642975 /* TasksViewController.swift in Sources */,
+				36601ED723BECF7C0049C914 /* FirstLoginPage.swift in Sources */,
+				36601EA723BE80920049C914 /* AppDelegate.swift in Sources */,
+				0D43DB68244BFB9000A87CA4 /* HeartViewController.swift in Sources */,
+				36C9A0FA23C0627D00257147 /* CalendarViewController.swift in Sources */,
+				36C9A10223C0644B00257147 /* StyleGenerator.swift in Sources */,
+				0DD3B3D123C26DB30033B256 /* NotesViewController.swift in Sources */,
+				36601ED923BECF970049C914 /* SecondLoginPage.swift in Sources */,
+				0D43DB6A244BFBA900A87CA4 /* HistoryViewController.swift in Sources */,
+				0DD3B3CD23C1BA8F0033B256 /* PatientsListViewController.swift in Sources */,
+				36601EA923BE80920049C914 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36601EB523BE80930049C914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36601EBE23BE80930049C914 /* SpeakablyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36601EC023BE80940049C914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36601EC923BE80940049C914 /* SpeakablyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36601EBB23BE80930049C914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36601EA223BE80920049C914 /* Speakably */;
+			targetProxy = 36601EBA23BE80930049C914 /* PBXContainerItemProxy */;
+		};
+		36601EC623BE80940049C914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36601EA223BE80920049C914 /* Speakably */;
+			targetProxy = 36601EC523BE80940049C914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36601EAC23BE80920049C914 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36601EAD23BE80920049C914 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36601EB123BE80930049C914 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36601EB223BE80930049C914 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36601ECB23BE80940049C914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36601ECC23BE80940049C914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36601ECE23BE80940049C914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0D22BDE9BE3D2470B6DEA5 /* Pods-Speakably.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 435Z6X2LL6;
+				INFOPLIST_FILE = Speakably/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VeerDoshi.Speakably;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36601ECF23BE80940049C914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADDEBA09298F8F2127F296B /* Pods-Speakably.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 435Z6X2LL6;
+				INFOPLIST_FILE = Speakably/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VeerDoshi.Speakably;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36601ED123BE80940049C914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809DDD27894022423E2ABBB2 /* Pods-SpeakablyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakablyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HemalDoshi.SpeakablyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speakably.app/Speakably";
+			};
+			name = Debug;
+		};
+		36601ED223BE80940049C914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2935D7DD9B4D1801A6E82195 /* Pods-SpeakablyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakablyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HemalDoshi.SpeakablyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speakably.app/Speakably";
+			};
+			name = Release;
+		};
+		36601ED423BE80940049C914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC1DFC366E4029CD498B6CF /* Pods-Speakably-SpeakablyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakablyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HemalDoshi.SpeakablyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speakably;
+			};
+			name = Debug;
+		};
+		36601ED523BE80940049C914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCFF6EE0D9497DD85CA0A29 /* Pods-Speakably-SpeakablyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakablyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HemalDoshi.SpeakablyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speakably;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36601E9E23BE80920049C914 /* Build configuration list for PBXProject "Speakably" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36601ECB23BE80940049C914 /* Debug */,
+				36601ECC23BE80940049C914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36601ECD23BE80940049C914 /* Build configuration list for PBXNativeTarget "Speakably" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36601ECE23BE80940049C914 /* Debug */,
+				36601ECF23BE80940049C914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36601ED023BE80940049C914 /* Build configuration list for PBXNativeTarget "SpeakablyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36601ED123BE80940049C914 /* Debug */,
+				36601ED223BE80940049C914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36601ED323BE80940049C914 /* Build configuration list for PBXNativeTarget "SpeakablyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36601ED423BE80940049C914 /* Debug */,
+				36601ED523BE80940049C914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36601E9B23BE80920049C914 /* Project object */;
+}

@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (5.1.0)
+  - BATabBarController (2.0.0):
+    - SnapKit
+  - CalendarKit (0.9.0):
+    - DateToolsSwift
+    - Neon
+  - DateToolsSwift (4.0.0)
+  - FoldingCell (5.0.2)
+  - iOSDropDown (0.3.4)
+  - NavigationDropdownMenu (5.0.0)
+  - Neon (0.4.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BATabBarController (~> 2.0.0)
+  - CalendarKit
+  - FoldingCell
+  - iOSDropDown
+  - NavigationDropdownMenu (~> 5.0.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BATabBarController
+    - CalendarKit
+    - DateToolsSwift
+    - FoldingCell
+    - iOSDropDown
+    - NavigationDropdownMenu
+    - Neon
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  BATabBarController: a4e936e3ae20ea0e55fb20ea7e57eaca302d4e18
+  CalendarKit: 15867eabb964818e4e29aeb2459ecd733ecb173e
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  FoldingCell: f92eb5fb9842319e7cd08c71533c98408b785099
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  NavigationDropdownMenu: 02a0e0ab71abd174396ab84ef27863d27e6ac2b9
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 6cedaeebf8b5acf40af91ca984be9dc1284fc9f0
+
+COCOAPODS: 1.8.4
