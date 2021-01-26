@@ -1,5 +1,5 @@
 # Analytically
-# 2020 Hack Swiftly Submission
+# 2020 1st Place Hack Swiftly Submission
 
 1. To watch the Analytically app demo, please view the demo video at the following link:
         https://drive.google.com/file/d/1psp6sRbFP1OAGIDmikhCSzCh6yYDqype/view
